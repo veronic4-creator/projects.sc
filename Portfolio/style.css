@@ -1,0 +1,38 @@
+body {
+    background-color:black; 
+    color:rgb(5, 247, 174);
+}
+
+p {
+    font-family: Arial, 'Times New Roman', Times, serif new roman, sans-serif;
+    font-weight: bold;
+}
+
+.contato {
+    /*border: 1px solid blue; */
+    background-color: azure;  
+}
+
+.info {
+    /*border: 1 px solid green; */
+    border: 1px solid blue;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+
+}
+
+.mim {
+    /*border: 1px solid red; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color:rgb(196, 179, 82) (199, 183, 102);
+}
+
+
+
+
+
+
+    
+
