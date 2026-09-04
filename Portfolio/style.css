@@ -1,59 +1,81 @@
-* {
-    margin:0px; 
-    padding:0px;
+/* RESET GLOBAL */
+*, *::before, *::after {
+  box-sizing:content-box
+  margin: 0;
+  padding: 0;
 }
-/* CSS vem aqui em baixo*/
 
 header {
-    background-color: rgb(231, 231, 128);
-    padding: 20px 0px;
-    position: fixed;
-    width: 100%;
+  background-color: rgb(231, 231, 128);
+  padding: 10px; /* Adicionado para o header ter altura e respiro */
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0px 10px;
-    color: rgb(230, 230, 59); background-color: rgb(39, 39, 38);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(230, 230, 59);
+  background-color: rgb(39, 39, 39);
 }
 
-body a {
-   text-transform: uppercase;
-   text-decoration: none;
-   color:rgb(150, 128, 5)
-}
-
-body a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-}
 
 #apres {
-    padding-top: 79px;
+  padding-top: 60px;
 }
 
 #sobre {
-    padding-top: 60px;
+  padding-top: 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /* Garante empilhamento se necessário */
+  justify-content: center; /* Centraliza conteúdo se desejado */
 }
 
 #habil {
-    padding-top: 60px;
+  padding-top: 60px;
+}
+
+a {
+
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(150, 128, 5);
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#apres {
+  padding-top: 60px;
+}
+
+#sobre {
+  padding-top: 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /* Garante empilhamento se necessário */
+  justify-content: center; /* Centraliza conteúdo se desejado */
 }
 
 #contato {
     padding-top: 60px;
+    margin-top: 20px;
+    padding-top: 5px;
+    text-align: center;
 }
 
 .icone {
-    fill:rgb(255, 238, 0);
-    stroke:rgb(168, 142, 142);
-    stroke-width: 5px;
-    width: 75px;
-    height: 75px;
+  fill: rgb(255, 238, 0);
+  stroke: rgb(168, 142, 142);
+  stroke-width: 5px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 12px;
 }
 
-footer ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+#habil {
+  padding-top: 60px;
 }
